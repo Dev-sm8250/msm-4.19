@@ -21,7 +21,6 @@ static int lmkd_count;
 static int lmkd_cricount;
 
 static atomic_t lmkd_debug_init_suc;
-static struct proc_dir_entry *lmkd_debug_rootdir;
 
 static ssize_t psi_lmkd_count_read(struct file *file, char __user *buf,
 			    size_t count, loff_t *ppos)
