@@ -8,7 +8,7 @@ export CLANG_PATH=${HOME}/linux-x86/clang-r416183b/bin
 export PATH=${CLANG_PATH}:${PATH}
 export CROSS_COMPILE=${HOME}/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 export KERNEL_LLVM_BIN=${HOME}/linux-x86/clang-r416183b/bin/clang
-export LD_LIBRARY_PATH=${HOME}/linux-x86/clang-r450784d/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=${HOME}/linux-x86/clang-r416183b/lib64:$LD_LIBRARY_PATH
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export KERNEL_MAKE_ENV="DTC_EXT=$(pwd)/tools/dtc CONFIG_BUILD_ARM64_DT_OVERLAY=y"
 
